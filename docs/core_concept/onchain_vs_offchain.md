@@ -27,5 +27,5 @@ Users can create on-chain & off-chain attestations. As for on-chain attestation,
 ### Store Attestations into Greenfield
 
 User can store attestations directly in Greenfield, but to be indexed by BAS and show brief information of attestations 
-in [BASCAN](https://bascan.io/), users should store their attestations with format "{$schema_uid}.{$attestation_uid}" in the 
+in [BASCAN](https://bascan.io/), users should store their attestations with format `{$schema_uid}.{$attestation_uid}` in the 
 bucket called 'bas'.

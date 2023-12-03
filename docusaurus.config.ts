@@ -79,12 +79,6 @@ const config: Config = {
       links: [
         {
           title: "Docs",
-          items: [
-            {
-              label: "Tutorial",
-              to: "/docs/intro",
-            },
-          ],
         },
         {
           title: "Community",
@@ -107,9 +101,17 @@ const config: Config = {
           title: "More",
           items: [
             {
-              label: "Explorer",
-              to: "/blog",
+              label: "Welcome to BAS",
+              to: "/index",
             },
+            {
+              label: "Quick Start",
+              to: "/quick_start",
+            },
+            // {
+            //   label: "Explorer",
+            //   to: "/blog",
+            // },
             // {
             //   label: 'GitHub',
             //   href: 'https://github.com/facebook/docusaurus',
