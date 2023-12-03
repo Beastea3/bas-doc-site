@@ -1,1 +1,0 @@
-"use strict";(self.webpackChunkbas_doc=self.webpackChunkbas_doc||[]).push([[209],{3969:t=>{t.exports=JSON.parse('{"title":"Core Concetp","description":"Learn the most important BAS concepts.","slug":"/category/core-concetp","permalink":"/category/core-concetp","navigation":{"next":{"title":"Attestation","permalink":"/core_concept/attestation"}}}')}}]);
