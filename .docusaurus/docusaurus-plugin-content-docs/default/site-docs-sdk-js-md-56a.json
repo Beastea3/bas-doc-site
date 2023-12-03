@@ -1,0 +1,23 @@
+{
+  "id": "sdk/js",
+  "title": "JS SDK Doc",
+  "description": "Here, you will find all the necessary information to begin integrating BAS into a Javascript/Typescript project.",
+  "source": "@site/docs/sdk/js.md",
+  "sourceDirName": "sdk",
+  "slug": "/sdk/js",
+  "permalink": "/sdk/js",
+  "draft": false,
+  "unlisted": false,
+  "tags": [],
+  "version": "current",
+  "frontMatter": {},
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "Quick Start",
+    "permalink": "/quick_start"
+  },
+  "next": {
+    "title": "Attestation with Greenfield",
+    "permalink": "/tutorials/attestation_in_gf"
+  }
+}

@@ -1,0 +1,23 @@
+{
+  "id": "tutorials/create_schema",
+  "title": "Create a Schema",
+  "description": "Instruction to schema",
+  "source": "@site/docs/tutorials/create_schema.md",
+  "sourceDirName": "tutorials",
+  "slug": "/tutorials/create_schema",
+  "permalink": "/tutorials/create_schema",
+  "draft": false,
+  "unlisted": false,
+  "tags": [],
+  "version": "current",
+  "frontMatter": {},
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "Attestation with Greenfield",
+    "permalink": "/tutorials/attestation_in_gf"
+  },
+  "next": {
+    "title": "Delegated Attestations",
+    "permalink": "/tutorials/delegate"
+  }
+}

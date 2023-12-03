@@ -1,0 +1,23 @@
+{
+  "id": "tutorials/attestation_in_gf",
+  "title": "Attestation with Greenfield",
+  "description": "Publish & Privatize Attestations",
+  "source": "@site/docs/tutorials/attestation_in_gf.md",
+  "sourceDirName": "tutorials",
+  "slug": "/tutorials/attestation_in_gf",
+  "permalink": "/tutorials/attestation_in_gf",
+  "draft": false,
+  "unlisted": false,
+  "tags": [],
+  "version": "current",
+  "frontMatter": {},
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "JS SDK Doc",
+    "permalink": "/sdk/js"
+  },
+  "next": {
+    "title": "Create a Schema",
+    "permalink": "/tutorials/create_schema"
+  }
+}

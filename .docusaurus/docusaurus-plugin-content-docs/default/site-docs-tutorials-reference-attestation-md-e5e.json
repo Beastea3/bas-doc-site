@@ -1,0 +1,23 @@
+{
+  "id": "tutorials/reference_attestation",
+  "title": "Referenced Attestation",
+  "description": "Unlocking the full potential of composability in BAS attestations, the refUID feature allows seamless referencing between attestations, establishing a hierarchy or chain of interdependent attestations. This organized structure fosters a clearer understanding of the relationships between attestations.",
+  "source": "@site/docs/tutorials/reference_attestation.md",
+  "sourceDirName": "tutorials",
+  "slug": "/tutorials/reference_attestation",
+  "permalink": "/tutorials/reference_attestation",
+  "draft": false,
+  "unlisted": false,
+  "tags": [],
+  "version": "current",
+  "frontMatter": {},
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "Make an Attestation",
+    "permalink": "/tutorials/make_attestation"
+  },
+  "next": {
+    "title": "Leveraging Resolver Contracts",
+    "permalink": "/tutorials/resolver"
+  }
+}

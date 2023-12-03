@@ -1,0 +1,23 @@
+{
+  "id": "index",
+  "title": "Welcome to BAS",
+  "description": "The BNB Attestation Service (BAS) is an infrastructure built on the BNB ecosystem for generating attestation to verify  information. BAS assists users in on-chain or off-chain verification, allowing them to assert ownership of attestation by storing them in Greenfield. This approach ensures data privacy and access control.",
+  "source": "@site/docs/index.md",
+  "sourceDirName": ".",
+  "slug": "/",
+  "permalink": "/",
+  "draft": false,
+  "unlisted": false,
+  "tags": [],
+  "version": "current",
+  "frontMatter": {},
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "Schema",
+    "permalink": "/explorer/schema"
+  },
+  "next": {
+    "title": "Quick Start",
+    "permalink": "/quick_start"
+  }
+}

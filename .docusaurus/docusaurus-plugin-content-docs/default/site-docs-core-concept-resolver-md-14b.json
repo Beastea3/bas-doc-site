@@ -1,0 +1,23 @@
+{
+  "id": "core_concept/resolver",
+  "title": "Resolver",
+  "description": "User can use resolver to introduce any logic to their attestations. Picture them as gatekeepers or hooks, playing a crucial role in ensuring that attestations fulfill predetermined criteria before being accepted. Without resolver, anyone can generate arbitrary attestation. For example, anyone can generate a “twitter record” claiming his is Musk.",
+  "source": "@site/docs/core_concept/resolver.md",
+  "sourceDirName": "core_concept",
+  "slug": "/core_concept/resolver",
+  "permalink": "/core_concept/resolver",
+  "draft": false,
+  "unlisted": false,
+  "tags": [],
+  "version": "current",
+  "frontMatter": {},
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "Ownership & Access Control",
+    "permalink": "/core_concept/ownership&access_control"
+  },
+  "next": {
+    "title": "Revocation",
+    "permalink": "/core_concept/revocation"
+  }
+}

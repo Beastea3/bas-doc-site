@@ -1,0 +1,23 @@
+{
+  "id": "use_case/license",
+  "title": "Leveraging Attestations for Streamlined Licensing Processes",
+  "description": "Challenges in Current Licensing Processes",
+  "source": "@site/docs/use_case/license.md",
+  "sourceDirName": "use_case",
+  "slug": "/use_case/license",
+  "permalink": "/use_case/license",
+  "draft": false,
+  "unlisted": false,
+  "tags": [],
+  "version": "current",
+  "frontMatter": {},
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "Revoking Attestation",
+    "permalink": "/tutorials/revoke"
+  },
+  "next": {
+    "title": "Transforming Voting Systems with Attestations",
+    "permalink": "/use_case/voting"
+  }
+}

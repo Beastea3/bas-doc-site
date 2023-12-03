@@ -1,0 +1,148 @@
+{
+  "docusaurus-plugin-content-docs": {
+    "default": {
+      "path": "/",
+      "versions": [
+        {
+          "name": "current",
+          "label": "Next",
+          "isLast": true,
+          "path": "/",
+          "mainDocId": "index",
+          "docs": [
+            {
+              "id": "core_concept/attestation",
+              "path": "/core_concept/attestation",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "core_concept/composability",
+              "path": "/core_concept/composability",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "core_concept/delegating",
+              "path": "/core_concept/delegating",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "core_concept/onchain_vs_offchain",
+              "path": "/core_concept/onchain_vs_offchain",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "core_concept/ownership&access_control",
+              "path": "/core_concept/ownership&access_control",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "core_concept/resolver",
+              "path": "/core_concept/resolver",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "core_concept/revocation",
+              "path": "/core_concept/revocation",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "core_concept/schema",
+              "path": "/core_concept/schema",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "explorer/attestation",
+              "path": "/explorer/attestation",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "explorer/overview",
+              "path": "/explorer/overview",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "explorer/schema",
+              "path": "/explorer/schema",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "index",
+              "path": "/",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "quick_start",
+              "path": "/quick_start",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "sdk/js",
+              "path": "/sdk/js",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "tutorials/attestation_in_gf",
+              "path": "/tutorials/attestation_in_gf",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "tutorials/create_schema",
+              "path": "/tutorials/create_schema",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "tutorials/delegate",
+              "path": "/tutorials/delegate",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "tutorials/make_attestation",
+              "path": "/tutorials/make_attestation",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "tutorials/reference_attestation",
+              "path": "/tutorials/reference_attestation",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "tutorials/resolver",
+              "path": "/tutorials/resolver",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "tutorials/revoke",
+              "path": "/tutorials/revoke",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "use_case/license",
+              "path": "/use_case/license",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "use_case/voting",
+              "path": "/use_case/voting",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "/category/core-concetp",
+              "path": "/category/core-concetp",
+              "sidebar": "tutorialSidebar"
+            }
+          ],
+          "draftIds": [],
+          "sidebars": {
+            "tutorialSidebar": {
+              "link": {
+                "path": "/category/core-concetp",
+                "label": "Core Concetp"
+              }
+            }
+          }
+        }
+      ],
+      "breadcrumbs": true
+    }
+  }
+}

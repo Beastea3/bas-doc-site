@@ -1,0 +1,23 @@
+{
+  "id": "tutorials/delegate",
+  "title": "Delegated Attestations",
+  "description": "Delegated Attestations empower an entity to sign an attestation while authorizing another entity to handle the associated transaction fee. It's noteworthy that when an attestation is delegated, the delegator's (signer) address serves as the attestor's identity in the attestation record.",
+  "source": "@site/docs/tutorials/delegate.md",
+  "sourceDirName": "tutorials",
+  "slug": "/tutorials/delegate",
+  "permalink": "/tutorials/delegate",
+  "draft": false,
+  "unlisted": false,
+  "tags": [],
+  "version": "current",
+  "frontMatter": {},
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "Create a Schema",
+    "permalink": "/tutorials/create_schema"
+  },
+  "next": {
+    "title": "Make an Attestation",
+    "permalink": "/tutorials/make_attestation"
+  }
+}

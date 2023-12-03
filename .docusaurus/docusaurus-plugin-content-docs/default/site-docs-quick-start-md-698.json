@@ -1,0 +1,23 @@
+{
+  "id": "quick_start",
+  "title": "Quick Start",
+  "description": "How does BAS work",
+  "source": "@site/docs/quick_start.md",
+  "sourceDirName": ".",
+  "slug": "/quick_start",
+  "permalink": "/quick_start",
+  "draft": false,
+  "unlisted": false,
+  "tags": [],
+  "version": "current",
+  "frontMatter": {},
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "Welcome to BAS",
+    "permalink": "/"
+  },
+  "next": {
+    "title": "JS SDK Doc",
+    "permalink": "/sdk/js"
+  }
+}

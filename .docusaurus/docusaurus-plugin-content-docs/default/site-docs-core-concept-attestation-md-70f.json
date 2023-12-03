@@ -1,0 +1,23 @@
+{
+  "id": "core_concept/attestation",
+  "title": "Attestation",
+  "description": "At its core, an attestation is a data with proof that can be used to verify the validity defined in schema. Attestation provide a standard for user to import any data into web3. With in BAS, attestations can be created on-chain and off-chain. Users can store the off-chain attestations in greenfield to provide the attestations access control.",
+  "source": "@site/docs/core_concept/attestation.md",
+  "sourceDirName": "core_concept",
+  "slug": "/core_concept/attestation",
+  "permalink": "/core_concept/attestation",
+  "draft": false,
+  "unlisted": false,
+  "tags": [],
+  "version": "current",
+  "frontMatter": {},
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "Core Concetp",
+    "permalink": "/category/core-concetp"
+  },
+  "next": {
+    "title": "Composability",
+    "permalink": "/core_concept/composability"
+  }
+}

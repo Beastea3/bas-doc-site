@@ -1,0 +1,23 @@
+{
+  "id": "core_concept/delegating",
+  "title": "Delegating",
+  "description": "Delegated Attestations enable an entity to sign an attestation while allowing another entity to cover the transaction fee.",
+  "source": "@site/docs/core_concept/delegating.md",
+  "sourceDirName": "core_concept",
+  "slug": "/core_concept/delegating",
+  "permalink": "/core_concept/delegating",
+  "draft": false,
+  "unlisted": false,
+  "tags": [],
+  "version": "current",
+  "frontMatter": {},
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "Composability",
+    "permalink": "/core_concept/composability"
+  },
+  "next": {
+    "title": "On-chain vs Off-chain",
+    "permalink": "/core_concept/onchain_vs_offchain"
+  }
+}

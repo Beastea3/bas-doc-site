@@ -1,0 +1,712 @@
+{
+  "docusaurus-plugin-content-docs": {
+    "default": {
+      "loadedVersions": [
+        {
+          "versionName": "current",
+          "label": "Next",
+          "banner": null,
+          "badge": false,
+          "noIndex": false,
+          "className": "docs-version-current",
+          "path": "/",
+          "tagsPath": "/tags",
+          "isLast": true,
+          "routePriority": -1,
+          "sidebarFilePath": "/Users/yuezhao/Projects/bas_doc/sidebars.ts",
+          "contentPath": "/Users/yuezhao/Projects/bas_doc/docs",
+          "contentPathLocalized": "/Users/yuezhao/Projects/bas_doc/i18n/en/docusaurus-plugin-content-docs/current",
+          "docs": [
+            {
+              "id": "core_concept/attestation",
+              "title": "Attestation",
+              "description": "At its core, an attestation is a data with proof that can be used to verify the validity defined in schema. Attestation provide a standard for user to import any data into web3. With in BAS, attestations can be created on-chain and off-chain. Users can store the off-chain attestations in greenfield to provide the attestations access control.",
+              "source": "@site/docs/core_concept/attestation.md",
+              "sourceDirName": "core_concept",
+              "slug": "/core_concept/attestation",
+              "permalink": "/core_concept/attestation",
+              "draft": false,
+              "unlisted": false,
+              "tags": [],
+              "version": "current",
+              "frontMatter": {},
+              "sidebar": "tutorialSidebar",
+              "previous": {
+                "title": "Core Concetp",
+                "permalink": "/category/core-concetp"
+              },
+              "next": {
+                "title": "Composability",
+                "permalink": "/core_concept/composability"
+              }
+            },
+            {
+              "id": "core_concept/composability",
+              "title": "Composability",
+              "description": "Composability is an important feature of Web3. Developers can create their own elements. And others can construct more complex and intricate structure by combing existing basic elements. Just like LEGO, users can build anything using several existing basic pieces.",
+              "source": "@site/docs/core_concept/composability.md",
+              "sourceDirName": "core_concept",
+              "slug": "/core_concept/composability",
+              "permalink": "/core_concept/composability",
+              "draft": false,
+              "unlisted": false,
+              "tags": [],
+              "version": "current",
+              "frontMatter": {},
+              "sidebar": "tutorialSidebar",
+              "previous": {
+                "title": "Attestation",
+                "permalink": "/core_concept/attestation"
+              },
+              "next": {
+                "title": "Delegating",
+                "permalink": "/core_concept/delegating"
+              }
+            },
+            {
+              "id": "core_concept/delegating",
+              "title": "Delegating",
+              "description": "Delegated Attestations enable an entity to sign an attestation while allowing another entity to cover the transaction fee.",
+              "source": "@site/docs/core_concept/delegating.md",
+              "sourceDirName": "core_concept",
+              "slug": "/core_concept/delegating",
+              "permalink": "/core_concept/delegating",
+              "draft": false,
+              "unlisted": false,
+              "tags": [],
+              "version": "current",
+              "frontMatter": {},
+              "sidebar": "tutorialSidebar",
+              "previous": {
+                "title": "Composability",
+                "permalink": "/core_concept/composability"
+              },
+              "next": {
+                "title": "On-chain vs Off-chain",
+                "permalink": "/core_concept/onchain_vs_offchain"
+              }
+            },
+            {
+              "id": "core_concept/onchain_vs_offchain",
+              "title": "On-chain vs Off-chain",
+              "description": "Users can create on-chain & off-chain attestations. As for on-chain attestation, they are stored directly on the BNB chain and can be accessed to by anyone. Once user create an on-chain attestation, he/she relinquishes the ownership of the attestation. While off-chain attestations often are stored by user themselves or in Greenfield. User has the ownership of the attestations in Greenfield and manage the permissions.",
+              "source": "@site/docs/core_concept/onchain_vs_offchain.md",
+              "sourceDirName": "core_concept",
+              "slug": "/core_concept/onchain_vs_offchain",
+              "permalink": "/core_concept/onchain_vs_offchain",
+              "draft": false,
+              "unlisted": false,
+              "tags": [],
+              "version": "current",
+              "frontMatter": {},
+              "sidebar": "tutorialSidebar",
+              "previous": {
+                "title": "Delegating",
+                "permalink": "/core_concept/delegating"
+              },
+              "next": {
+                "title": "Ownership & Access Control",
+                "permalink": "/core_concept/ownership&access_control"
+              }
+            },
+            {
+              "id": "core_concept/ownership&access_control",
+              "title": "Ownership & Access Control",
+              "description": "In Web3, two crucial functionalities must be implemented to address users' personal data",
+              "source": "@site/docs/core_concept/ownership&access_control.md",
+              "sourceDirName": "core_concept",
+              "slug": "/core_concept/ownership&access_control",
+              "permalink": "/core_concept/ownership&access_control",
+              "draft": false,
+              "unlisted": false,
+              "tags": [],
+              "version": "current",
+              "frontMatter": {},
+              "sidebar": "tutorialSidebar",
+              "previous": {
+                "title": "On-chain vs Off-chain",
+                "permalink": "/core_concept/onchain_vs_offchain"
+              },
+              "next": {
+                "title": "Resolver",
+                "permalink": "/core_concept/resolver"
+              }
+            },
+            {
+              "id": "core_concept/resolver",
+              "title": "Resolver",
+              "description": "User can use resolver to introduce any logic to their attestations. Picture them as gatekeepers or hooks, playing a crucial role in ensuring that attestations fulfill predetermined criteria before being accepted. Without resolver, anyone can generate arbitrary attestation. For example, anyone can generate a “twitter record” claiming his is Musk.",
+              "source": "@site/docs/core_concept/resolver.md",
+              "sourceDirName": "core_concept",
+              "slug": "/core_concept/resolver",
+              "permalink": "/core_concept/resolver",
+              "draft": false,
+              "unlisted": false,
+              "tags": [],
+              "version": "current",
+              "frontMatter": {},
+              "sidebar": "tutorialSidebar",
+              "previous": {
+                "title": "Ownership & Access Control",
+                "permalink": "/core_concept/ownership&access_control"
+              },
+              "next": {
+                "title": "Revocation",
+                "permalink": "/core_concept/revocation"
+              }
+            },
+            {
+              "id": "core_concept/revocation",
+              "title": "Revocation",
+              "description": "On BAS, users can revoke either on-chain or off-chain attestations when they are no longer valid. Consider an attestation which claims Bob is a senior student. But when Bob graduate from school, the attestation should be revoked.",
+              "source": "@site/docs/core_concept/revocation.md",
+              "sourceDirName": "core_concept",
+              "slug": "/core_concept/revocation",
+              "permalink": "/core_concept/revocation",
+              "draft": false,
+              "unlisted": false,
+              "tags": [],
+              "version": "current",
+              "frontMatter": {},
+              "sidebar": "tutorialSidebar",
+              "previous": {
+                "title": "Resolver",
+                "permalink": "/core_concept/resolver"
+              },
+              "next": {
+                "title": "Schemas",
+                "permalink": "/core_concept/schema"
+              }
+            },
+            {
+              "id": "core_concept/schema",
+              "title": "Schemas",
+              "description": "A schema is a structured framework that defining the data format and resolver with attest function. Schema dictate what kind of data can be attested and how that data should be presented.",
+              "source": "@site/docs/core_concept/schema.md",
+              "sourceDirName": "core_concept",
+              "slug": "/core_concept/schema",
+              "permalink": "/core_concept/schema",
+              "draft": false,
+              "unlisted": false,
+              "tags": [],
+              "version": "current",
+              "frontMatter": {},
+              "sidebar": "tutorialSidebar",
+              "previous": {
+                "title": "Revocation",
+                "permalink": "/core_concept/revocation"
+              },
+              "next": {
+                "title": "Attestation",
+                "permalink": "/explorer/attestation"
+              }
+            },
+            {
+              "id": "explorer/attestation",
+              "title": "Attestation",
+              "description": "BAS provides a convenient method for creating attestations without any code or development skills required. All you need is a wallet.",
+              "source": "@site/docs/explorer/attestation.md",
+              "sourceDirName": "explorer",
+              "slug": "/explorer/attestation",
+              "permalink": "/explorer/attestation",
+              "draft": false,
+              "unlisted": false,
+              "tags": [],
+              "version": "current",
+              "frontMatter": {},
+              "sidebar": "tutorialSidebar",
+              "previous": {
+                "title": "Schemas",
+                "permalink": "/core_concept/schema"
+              },
+              "next": {
+                "title": "Overview",
+                "permalink": "/explorer/overview"
+              }
+            },
+            {
+              "id": "explorer/overview",
+              "title": "Overview",
+              "description": "Explore the comprehensive guide to BASCAN, the dedicated explorer for the Attestation Ecosystem. BASCAN serves as your central hub, providing avenues for exploration, discovery, creation, and verification of schemas and attestations on BNB chain.",
+              "source": "@site/docs/explorer/overview.md",
+              "sourceDirName": "explorer",
+              "slug": "/explorer/overview",
+              "permalink": "/explorer/overview",
+              "draft": false,
+              "unlisted": false,
+              "tags": [],
+              "version": "current",
+              "frontMatter": {},
+              "sidebar": "tutorialSidebar",
+              "previous": {
+                "title": "Attestation",
+                "permalink": "/explorer/attestation"
+              },
+              "next": {
+                "title": "Schema",
+                "permalink": "/explorer/schema"
+              }
+            },
+            {
+              "id": "explorer/schema",
+              "title": "Schema",
+              "description": "Even a non-developer can master the power of attestations, thanks to BASCAN’s user-friendly interface. Crafting your schema can be done without any coding at all. This tutorial will provide a step-by-step process, making schema creation a breeze without needing to delve deep into the technical aspects.",
+              "source": "@site/docs/explorer/schema.md",
+              "sourceDirName": "explorer",
+              "slug": "/explorer/schema",
+              "permalink": "/explorer/schema",
+              "draft": false,
+              "unlisted": false,
+              "tags": [],
+              "version": "current",
+              "frontMatter": {},
+              "sidebar": "tutorialSidebar",
+              "previous": {
+                "title": "Overview",
+                "permalink": "/explorer/overview"
+              },
+              "next": {
+                "title": "Welcome to BAS",
+                "permalink": "/"
+              }
+            },
+            {
+              "id": "index",
+              "title": "Welcome to BAS",
+              "description": "The BNB Attestation Service (BAS) is an infrastructure built on the BNB ecosystem for generating attestation to verify  information. BAS assists users in on-chain or off-chain verification, allowing them to assert ownership of attestation by storing them in Greenfield. This approach ensures data privacy and access control.",
+              "source": "@site/docs/index.md",
+              "sourceDirName": ".",
+              "slug": "/",
+              "permalink": "/",
+              "draft": false,
+              "unlisted": false,
+              "tags": [],
+              "version": "current",
+              "frontMatter": {},
+              "sidebar": "tutorialSidebar",
+              "previous": {
+                "title": "Schema",
+                "permalink": "/explorer/schema"
+              },
+              "next": {
+                "title": "Quick Start",
+                "permalink": "/quick_start"
+              }
+            },
+            {
+              "id": "quick_start",
+              "title": "Quick Start",
+              "description": "How does BAS work",
+              "source": "@site/docs/quick_start.md",
+              "sourceDirName": ".",
+              "slug": "/quick_start",
+              "permalink": "/quick_start",
+              "draft": false,
+              "unlisted": false,
+              "tags": [],
+              "version": "current",
+              "frontMatter": {},
+              "sidebar": "tutorialSidebar",
+              "previous": {
+                "title": "Welcome to BAS",
+                "permalink": "/"
+              },
+              "next": {
+                "title": "JS SDK Doc",
+                "permalink": "/sdk/js"
+              }
+            },
+            {
+              "id": "sdk/js",
+              "title": "JS SDK Doc",
+              "description": "Here, you will find all the necessary information to begin integrating BAS into a Javascript/Typescript project.",
+              "source": "@site/docs/sdk/js.md",
+              "sourceDirName": "sdk",
+              "slug": "/sdk/js",
+              "permalink": "/sdk/js",
+              "draft": false,
+              "unlisted": false,
+              "tags": [],
+              "version": "current",
+              "frontMatter": {},
+              "sidebar": "tutorialSidebar",
+              "previous": {
+                "title": "Quick Start",
+                "permalink": "/quick_start"
+              },
+              "next": {
+                "title": "Attestation with Greenfield",
+                "permalink": "/tutorials/attestation_in_gf"
+              }
+            },
+            {
+              "id": "tutorials/attestation_in_gf",
+              "title": "Attestation with Greenfield",
+              "description": "Publish & Privatize Attestations",
+              "source": "@site/docs/tutorials/attestation_in_gf.md",
+              "sourceDirName": "tutorials",
+              "slug": "/tutorials/attestation_in_gf",
+              "permalink": "/tutorials/attestation_in_gf",
+              "draft": false,
+              "unlisted": false,
+              "tags": [],
+              "version": "current",
+              "frontMatter": {},
+              "sidebar": "tutorialSidebar",
+              "previous": {
+                "title": "JS SDK Doc",
+                "permalink": "/sdk/js"
+              },
+              "next": {
+                "title": "Create a Schema",
+                "permalink": "/tutorials/create_schema"
+              }
+            },
+            {
+              "id": "tutorials/create_schema",
+              "title": "Create a Schema",
+              "description": "Instruction to schema",
+              "source": "@site/docs/tutorials/create_schema.md",
+              "sourceDirName": "tutorials",
+              "slug": "/tutorials/create_schema",
+              "permalink": "/tutorials/create_schema",
+              "draft": false,
+              "unlisted": false,
+              "tags": [],
+              "version": "current",
+              "frontMatter": {},
+              "sidebar": "tutorialSidebar",
+              "previous": {
+                "title": "Attestation with Greenfield",
+                "permalink": "/tutorials/attestation_in_gf"
+              },
+              "next": {
+                "title": "Delegated Attestations",
+                "permalink": "/tutorials/delegate"
+              }
+            },
+            {
+              "id": "tutorials/delegate",
+              "title": "Delegated Attestations",
+              "description": "Delegated Attestations empower an entity to sign an attestation while authorizing another entity to handle the associated transaction fee. It's noteworthy that when an attestation is delegated, the delegator's (signer) address serves as the attestor's identity in the attestation record.",
+              "source": "@site/docs/tutorials/delegate.md",
+              "sourceDirName": "tutorials",
+              "slug": "/tutorials/delegate",
+              "permalink": "/tutorials/delegate",
+              "draft": false,
+              "unlisted": false,
+              "tags": [],
+              "version": "current",
+              "frontMatter": {},
+              "sidebar": "tutorialSidebar",
+              "previous": {
+                "title": "Create a Schema",
+                "permalink": "/tutorials/create_schema"
+              },
+              "next": {
+                "title": "Make an Attestation",
+                "permalink": "/tutorials/make_attestation"
+              }
+            },
+            {
+              "id": "tutorials/make_attestation",
+              "title": "Make an Attestation",
+              "description": "Depending on your requirements and level of technical expertise, there are multiple methods available for creating attestations on BAS:",
+              "source": "@site/docs/tutorials/make_attestation.md",
+              "sourceDirName": "tutorials",
+              "slug": "/tutorials/make_attestation",
+              "permalink": "/tutorials/make_attestation",
+              "draft": false,
+              "unlisted": false,
+              "tags": [],
+              "version": "current",
+              "frontMatter": {},
+              "sidebar": "tutorialSidebar",
+              "previous": {
+                "title": "Delegated Attestations",
+                "permalink": "/tutorials/delegate"
+              },
+              "next": {
+                "title": "Referenced Attestation",
+                "permalink": "/tutorials/reference_attestation"
+              }
+            },
+            {
+              "id": "tutorials/reference_attestation",
+              "title": "Referenced Attestation",
+              "description": "Unlocking the full potential of composability in BAS attestations, the refUID feature allows seamless referencing between attestations, establishing a hierarchy or chain of interdependent attestations. This organized structure fosters a clearer understanding of the relationships between attestations.",
+              "source": "@site/docs/tutorials/reference_attestation.md",
+              "sourceDirName": "tutorials",
+              "slug": "/tutorials/reference_attestation",
+              "permalink": "/tutorials/reference_attestation",
+              "draft": false,
+              "unlisted": false,
+              "tags": [],
+              "version": "current",
+              "frontMatter": {},
+              "sidebar": "tutorialSidebar",
+              "previous": {
+                "title": "Make an Attestation",
+                "permalink": "/tutorials/make_attestation"
+              },
+              "next": {
+                "title": "Leveraging Resolver Contracts",
+                "permalink": "/tutorials/resolver"
+              }
+            },
+            {
+              "id": "tutorials/resolver",
+              "title": "Leveraging Resolver Contracts",
+              "description": "To enhance the functionality of a Schema, Resolver Contracts serve as pivotal hooks, verifying that attestations adhere to predetermined rules or smart contract logic before finalization. This functionality empowers the infusion of additional smart contract features into your schema, such as implementing an allow-list for attestation creators or enabling NFT minting based on specific conditions.",
+              "source": "@site/docs/tutorials/resolver.md",
+              "sourceDirName": "tutorials",
+              "slug": "/tutorials/resolver",
+              "permalink": "/tutorials/resolver",
+              "draft": false,
+              "unlisted": false,
+              "tags": [],
+              "version": "current",
+              "frontMatter": {},
+              "sidebar": "tutorialSidebar",
+              "previous": {
+                "title": "Referenced Attestation",
+                "permalink": "/tutorials/reference_attestation"
+              },
+              "next": {
+                "title": "Revoking Attestation",
+                "permalink": "/tutorials/revoke"
+              }
+            },
+            {
+              "id": "tutorials/revoke",
+              "title": "Revoking Attestation",
+              "description": "Attestations within BAS can undergo revocation when their validity or accuracy diminishes, a process applicable both on-chain and off-chain. Marking an attestation as invalid becomes imperative in instances of errors during issuance or when the represented data becomes obsolete.",
+              "source": "@site/docs/tutorials/revoke.md",
+              "sourceDirName": "tutorials",
+              "slug": "/tutorials/revoke",
+              "permalink": "/tutorials/revoke",
+              "draft": false,
+              "unlisted": false,
+              "tags": [],
+              "version": "current",
+              "frontMatter": {},
+              "sidebar": "tutorialSidebar",
+              "previous": {
+                "title": "Leveraging Resolver Contracts",
+                "permalink": "/tutorials/resolver"
+              },
+              "next": {
+                "title": "Leveraging Attestations for Streamlined Licensing Processes",
+                "permalink": "/use_case/license"
+              }
+            },
+            {
+              "id": "use_case/license",
+              "title": "Leveraging Attestations for Streamlined Licensing Processes",
+              "description": "Challenges in Current Licensing Processes",
+              "source": "@site/docs/use_case/license.md",
+              "sourceDirName": "use_case",
+              "slug": "/use_case/license",
+              "permalink": "/use_case/license",
+              "draft": false,
+              "unlisted": false,
+              "tags": [],
+              "version": "current",
+              "frontMatter": {},
+              "sidebar": "tutorialSidebar",
+              "previous": {
+                "title": "Revoking Attestation",
+                "permalink": "/tutorials/revoke"
+              },
+              "next": {
+                "title": "Transforming Voting Systems with Attestations",
+                "permalink": "/use_case/voting"
+              }
+            },
+            {
+              "id": "use_case/voting",
+              "title": "Transforming Voting Systems with Attestations",
+              "description": "Challenge in Voting Systems",
+              "source": "@site/docs/use_case/voting.md",
+              "sourceDirName": "use_case",
+              "slug": "/use_case/voting",
+              "permalink": "/use_case/voting",
+              "draft": false,
+              "unlisted": false,
+              "tags": [],
+              "version": "current",
+              "frontMatter": {},
+              "sidebar": "tutorialSidebar",
+              "previous": {
+                "title": "Leveraging Attestations for Streamlined Licensing Processes",
+                "permalink": "/use_case/license"
+              }
+            }
+          ],
+          "drafts": [],
+          "sidebars": {
+            "tutorialSidebar": [
+              {
+                "type": "category",
+                "label": "Core Concetp",
+                "collapsible": true,
+                "collapsed": true,
+                "items": [
+                  {
+                    "type": "doc",
+                    "id": "core_concept/attestation"
+                  },
+                  {
+                    "type": "doc",
+                    "id": "core_concept/composability"
+                  },
+                  {
+                    "type": "doc",
+                    "id": "core_concept/delegating"
+                  },
+                  {
+                    "type": "doc",
+                    "id": "core_concept/onchain_vs_offchain"
+                  },
+                  {
+                    "type": "doc",
+                    "id": "core_concept/ownership&access_control"
+                  },
+                  {
+                    "type": "doc",
+                    "id": "core_concept/resolver"
+                  },
+                  {
+                    "type": "doc",
+                    "id": "core_concept/revocation"
+                  },
+                  {
+                    "type": "doc",
+                    "id": "core_concept/schema"
+                  }
+                ],
+                "link": {
+                  "type": "generated-index",
+                  "description": "Learn the most important BAS concepts.",
+                  "slug": "/category/core-concetp",
+                  "permalink": "/category/core-concetp"
+                }
+              },
+              {
+                "type": "category",
+                "label": "Explorer",
+                "collapsible": true,
+                "collapsed": true,
+                "items": [
+                  {
+                    "type": "doc",
+                    "id": "explorer/attestation"
+                  },
+                  {
+                    "type": "doc",
+                    "id": "explorer/overview"
+                  },
+                  {
+                    "type": "doc",
+                    "id": "explorer/schema"
+                  }
+                ]
+              },
+              {
+                "type": "doc",
+                "id": "index"
+              },
+              {
+                "type": "doc",
+                "id": "quick_start"
+              },
+              {
+                "type": "category",
+                "label": "SDK",
+                "collapsible": true,
+                "collapsed": true,
+                "items": [
+                  {
+                    "type": "doc",
+                    "id": "sdk/js"
+                  }
+                ]
+              },
+              {
+                "type": "category",
+                "label": "Tutorials",
+                "collapsible": true,
+                "collapsed": true,
+                "items": [
+                  {
+                    "type": "doc",
+                    "id": "tutorials/attestation_in_gf"
+                  },
+                  {
+                    "type": "doc",
+                    "id": "tutorials/create_schema"
+                  },
+                  {
+                    "type": "doc",
+                    "id": "tutorials/delegate"
+                  },
+                  {
+                    "type": "doc",
+                    "id": "tutorials/make_attestation"
+                  },
+                  {
+                    "type": "doc",
+                    "id": "tutorials/reference_attestation"
+                  },
+                  {
+                    "type": "doc",
+                    "id": "tutorials/resolver"
+                  },
+                  {
+                    "type": "doc",
+                    "id": "tutorials/revoke"
+                  }
+                ]
+              },
+              {
+                "type": "category",
+                "label": "Use Case",
+                "collapsible": true,
+                "collapsed": true,
+                "items": [
+                  {
+                    "type": "doc",
+                    "id": "use_case/license"
+                  },
+                  {
+                    "type": "doc",
+                    "id": "use_case/voting"
+                  }
+                ]
+              }
+            ]
+          }
+        }
+      ]
+    }
+  },
+  "docusaurus-plugin-content-pages": {
+    "default": [
+      {
+        "type": "mdx",
+        "permalink": "/markdown-page",
+        "source": "@site/src/pages/markdown-page.md",
+        "title": "Markdown page example",
+        "description": "You don't need React to write simple standalone pages.",
+        "frontMatter": {
+          "title": "Markdown page example"
+        },
+        "unlisted": false
+      }
+    ]
+  },
+  "docusaurus-plugin-debug": {},
+  "docusaurus-theme-classic": {},
+  "docusaurus-bootstrap-plugin": {},
+  "docusaurus-mdx-fallback-plugin": {}
+}

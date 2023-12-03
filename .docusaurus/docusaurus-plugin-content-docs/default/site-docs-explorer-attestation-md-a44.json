@@ -1,0 +1,23 @@
+{
+  "id": "explorer/attestation",
+  "title": "Attestation",
+  "description": "BAS provides a convenient method for creating attestations without any code or development skills required. All you need is a wallet.",
+  "source": "@site/docs/explorer/attestation.md",
+  "sourceDirName": "explorer",
+  "slug": "/explorer/attestation",
+  "permalink": "/explorer/attestation",
+  "draft": false,
+  "unlisted": false,
+  "tags": [],
+  "version": "current",
+  "frontMatter": {},
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "Schemas",
+    "permalink": "/core_concept/schema"
+  },
+  "next": {
+    "title": "Overview",
+    "permalink": "/explorer/overview"
+  }
+}

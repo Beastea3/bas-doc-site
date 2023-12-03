@@ -1,0 +1,23 @@
+{
+  "id": "tutorials/revoke",
+  "title": "Revoking Attestation",
+  "description": "Attestations within BAS can undergo revocation when their validity or accuracy diminishes, a process applicable both on-chain and off-chain. Marking an attestation as invalid becomes imperative in instances of errors during issuance or when the represented data becomes obsolete.",
+  "source": "@site/docs/tutorials/revoke.md",
+  "sourceDirName": "tutorials",
+  "slug": "/tutorials/revoke",
+  "permalink": "/tutorials/revoke",
+  "draft": false,
+  "unlisted": false,
+  "tags": [],
+  "version": "current",
+  "frontMatter": {},
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "Leveraging Resolver Contracts",
+    "permalink": "/tutorials/resolver"
+  },
+  "next": {
+    "title": "Leveraging Attestations for Streamlined Licensing Processes",
+    "permalink": "/use_case/license"
+  }
+}

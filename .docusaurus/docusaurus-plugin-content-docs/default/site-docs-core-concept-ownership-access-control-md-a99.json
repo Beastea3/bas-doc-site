@@ -1,0 +1,23 @@
+{
+  "id": "core_concept/ownership&access_control",
+  "title": "Ownership & Access Control",
+  "description": "In Web3, two crucial functionalities must be implemented to address users' personal data",
+  "source": "@site/docs/core_concept/ownership&access_control.md",
+  "sourceDirName": "core_concept",
+  "slug": "/core_concept/ownership&access_control",
+  "permalink": "/core_concept/ownership&access_control",
+  "draft": false,
+  "unlisted": false,
+  "tags": [],
+  "version": "current",
+  "frontMatter": {},
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "On-chain vs Off-chain",
+    "permalink": "/core_concept/onchain_vs_offchain"
+  },
+  "next": {
+    "title": "Resolver",
+    "permalink": "/core_concept/resolver"
+  }
+}

@@ -1,0 +1,12 @@
+{
+  "title": "Core Concetp",
+  "description": "Learn the most important BAS concepts.",
+  "slug": "/category/core-concetp",
+  "permalink": "/category/core-concetp",
+  "navigation": {
+    "next": {
+      "title": "Attestation",
+      "permalink": "/core_concept/attestation"
+    }
+  }
+}

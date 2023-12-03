@@ -1,0 +1,19 @@
+{
+  "id": "use_case/voting",
+  "title": "Transforming Voting Systems with Attestations",
+  "description": "Challenge in Voting Systems",
+  "source": "@site/docs/use_case/voting.md",
+  "sourceDirName": "use_case",
+  "slug": "/use_case/voting",
+  "permalink": "/use_case/voting",
+  "draft": false,
+  "unlisted": false,
+  "tags": [],
+  "version": "current",
+  "frontMatter": {},
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "Leveraging Attestations for Streamlined Licensing Processes",
+    "permalink": "/use_case/license"
+  }
+}
