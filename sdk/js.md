@@ -23,6 +23,7 @@ pnpm add @bnb-attestation-service/bas-sdk
 ```
 
 <aside>
+    
     💡 If you want to save attestations into GreenField Storage You need to import file-handle.wasm, please see the example below.
 </aside>
 
@@ -96,7 +97,6 @@ const transaction = await schemaRegistry.register({
 
 // Optional: Wait for transaction to be validated
 await transaction.wait();
-
 ```
 
 Once you have registered a schema, you can utilize its UID to generate attestations that adhere to the designated structure.
@@ -125,7 +125,6 @@ console.log(schemaRecord);
   resolver: '0xResolverAddress',
   revocable: true
 }
-
 ```
 
 In the output, you will receive an object that includes the schema UID, the schema string, the resolver address, and a boolean flag indicating if the schema can be revoked or not.
@@ -147,7 +146,6 @@ const uid = "0xff08bbf3d3e6e0992fc70ab9b9370416be59e87897c3d42b20549901d2cccc3e"
 const attestation = await bas.getAttestation(uid);
 
 console.log(attestation);
-
 ```
 
 ### Output
@@ -180,7 +178,6 @@ Example output:
     revocable: true,
     data: '0x0000000000000000000000000000000000000000000000000000000000000000'
 }
-
 ```
 
 ### Creating On-chain Attestations
@@ -225,7 +222,6 @@ const tx = await bas.attest({
 const newAttestationUID = await tx.wait();
 
 console.log("New attestation UID:", newAttestationUID);
-
 ```
 
 ### Creating Off-chain Attestations without Saving to GreenField
@@ -260,7 +256,6 @@ const offchainAttestation = await offchain.signOffchainAttestation({
   refUID: '0x0000000000000000000000000000000000000000000000000000000000000000',
   data: encodedData,
 }, signer);
-
 ```
 
 This function will confidently generate an attestation object off-chain, which will be signed and contain the UID, signature, and attestation data. You can confidently share this object with the intended recipient or confidently store it for future use.
@@ -314,7 +309,6 @@ To generate an off-chain attestation and save the result to GreenField Storage, 
     console.log(err);
     alert(err.message);
   }
-
 ```
 
 This function will generate an attestation object off-chain. The attestation object will be signed and will contain the UID, signature, and attestation data. Similar to the previous function, you can also save it to greenfield storage and set the access according to your preferences.
@@ -331,7 +325,6 @@ const transaction = await bas.revoke({
 
 // Optional: Wait for transaction to be validated
 await transaction.wait();
-
 ```
 
 ### Revoking Off-chain Attestations
@@ -350,7 +343,6 @@ const transaction = await bas.revokeOffchain(data);
 
 // Optional: Wait for transaction to be validated
 await transaction.wait();
-
 ```
 
 ### Get offchain Attestation from GreenField
@@ -420,7 +412,6 @@ const isValidAttestation = offchain.verifyOffchainAttestationSignature(
   attestation.signer,
   attestation.sig
 );
-
 ```
 
 ### Naming a Schema and Describe a Schema on the BAScan

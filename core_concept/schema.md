@@ -2,9 +2,11 @@
 
 A schema is a structured framework that defining the data format and resolver with `attest` function. Schema dictate what kind of data can be attested and how that data should be presented.
 
-Here is a example for `bytes32 schemaId, string name`. It maps schemaUID(bytes32) to schema name (string).
+Here is an example for `bytes32 schemaId, string name`. It maps schemaUID(bytes32) to schema name (string).
 
-![Schema Detail](../figures/schema_detail.png)
+<div align="center" id="Schema Detail">
+    <img src=../figures/schema_detail.png width=60% />
+</div>
 
 ## Fields in a schema is
 
@@ -16,7 +18,7 @@ Here is a example for `bytes32 schemaId, string name`. It maps schemaUID(bytes32
 - **`Attestation Count`** - The total number of attestations, whether on or off-chain, associated with the schema.
 - **`Schema`** - The ABI encoded field types within the schema.
 
-🌐 **Tutorial**: Make a Schema //todo
+🌐 **Tutorial**: [Make a Schema](../tutorials/create_schema.md)
 
 ## **Composability and Modularity**
 
@@ -30,5 +32,5 @@ Account info in different could be different but there are some common basic inf
 
 With BAS, you can use attestations to add more info to your schemas:
 
-- Naming a Schema       //todo
-- Add a Description     //todo
+- [Naming a Schema](./composability.md#naming-a-schema--description-of-a-schema)
+- [Add a Description](./composability.md#naming-a-schema--description-of-a-schema)

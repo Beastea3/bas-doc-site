@@ -21,11 +21,11 @@ We believe by providing above features, BAS will release possibility of Web3. Jo
 
 Let’ go
 
-1. Learn more about BAS and how to use it. //todo
-2. Explorer and install the JS SDK. //todo
-3. Explorer existing schema and attestation. //todo
-4. Create your own schema. //todo
-5. Create your first attestation. //todo
+1. [Learn more about BAS and how to use it.](./core_concept/attestation.md)
+2. [Explorer and install the JS SDK.](./sdk/js.md)
+3. [Explorer existing schema and attestation.](./explorer/schema.md)
+4. [Create your own schema.](./tutorials/create_schema.md)
+5. [Create your first attestation.](./tutorials/make_attestation.md)
 
 ## Join the Community
 

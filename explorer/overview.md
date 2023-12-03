@@ -11,7 +11,7 @@ Unlock a range of functionalities on the explorer site, allowing you to:
 
 - Explore/Create schemas
 - Make/Check/Revoke attestations
-- Publish or private attestations to GreeField
+- Publish or private attestations to GreenField
 - And much more!
 
 **Here we go!**

@@ -18,9 +18,12 @@ When users want to check the status of their schema or learn about certain schem
 2. **Search by UID:** Users need to enter the complete and accurate UID of the schema to find the corresponding schema.
 3. **Search by `Schema #`**: Users need to enter the accurate `Schema #` to find the corresponding schema.
 
-![create schema](../figures/create_schema.png)
+<div align="center" id="create schema">
+    <img src=../figures/create_schema.png width=60% />
+</div>
 
-```[text]
-💡TIPS: 
+<aside>
+
+    💡TIPS: 
     Before creating your schema, you can use BASCAN to check if similar schemas have already been created and are in use. This will help you avoid duplicating efforts and ensure that you can leverage existing schemas if they meet your requirements.
-```
+</aside>>

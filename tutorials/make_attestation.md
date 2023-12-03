@@ -2,7 +2,7 @@
 
 Depending on your requirements and level of technical expertise, there are multiple methods available for creating attestations on BAS:
 
-- BAS SDK: Designed for developers who are building decentralized applications (dapps) or integrating attestations into existing platforms.
+- BAS SDK: Designed for developers who are building decentralized applications (D-apps) or integrating attestations into existing platforms.
 - Direct Contract Interaction: For those who prefer maximum flexibility and are comfortable interacting directly with BNB smart contracts.
 - BASScan Website: The most user-friendly option for creating attestations without any coding required.
 
@@ -19,12 +19,12 @@ Before we delve into the process of creating attestations, take a moment to unde
 - **`refUID`** - An attestation that this particular attestation is referencing, if any.
 - **`data`** - The ABI encoded data associated with the attestation.
 
-## Example OnChain Attestation Record
+## Example: On-Chain Attestation Record
 
 Users can clearly view the structure of an on-chain attestation on [BASCAN](https://www.bascan.com).
 ![attestation_detail](../figures/attestation_detail.png)
 
-## Example OffChain Attestation Record
+## Example: OffChain Attestation Record
 
 Here's an off-chain attestation record. Unlike the on-chain record, this attestation is public, and the server is unaware of it. Users can share the attestation URL with others to decode the data or publish it to GreenField. Once published or pinned to GreenField, the status icon will switch to "public.”
 
@@ -32,13 +32,14 @@ Here's an off-chain attestation record. Unlike the on-chain record, this attesta
 
 ## Make  Attestations
 
-### Make on-chain Attestations through [BASCAN](https://www.bascan.io)
+### Make Attestations through [BASCAN](https://www.bascan.io)
 
 For non-developers seeking to leverage attestations, BAS provides no-code tools. These interfaces enable you to easily generate attestations through visual interface. See more information in [BASCAN](https://www.bascan.io).
+Users can get more details on [here](../explorer/attestation.md#make-an-attestation).
 
-### Make on-chain Attestations through
+### Make Attestations through SDK
 
-//todo
+Users can find out how to create an on-chain attestation [here](../sdk/js.md#creating-on-chain-attestations)
 
 ### Contract
 

@@ -16,7 +16,7 @@ Incorporating refUID involves one attestation referencing another by utilizing i
 
 ## Creating a Referenced Attestation
 
-To reference an attestation, include its UID in the `refUID` field of the new attestation. BAS validates the refUID's existence, ensuring the new attestation references the specified attestation.
+To reference an attestation, include its UID in the `refUID` field of the new attestation. BAS validates existence of the  `refUID`, ensuring the new attestation references the specified attestation.
 
 ## Referencing Multiple Attestations
 
