@@ -5,7 +5,7 @@ A schema is a structured framework that defining the data format and resolver wi
 Here is an example for `bytes32 schemaId, string name`. It maps schemaUID(bytes32) to schema name (string).
 
 <div align="center" id="Schema Detail">
-    <img src="/figures/schema_detail.png" width="60%" />
+    <img src="/figures/schema_detail.png" width="70%" />
 </div>
 
 ## Fields in a schema is

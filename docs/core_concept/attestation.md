@@ -27,7 +27,7 @@ Attestations serve as a bridge between web2 and web3, providing a standard metho
 Here is an example on-chain attestation record. It’s name a schema `0xd41…bcb` as Twitter Handle.
 
 <div align="center">
-    <img src="/figures/attestation_detail.png" width="60%" />
+    <img src="/figures/attestation_detail.png" width="70%" />
 </div>
 
 1. **UID:** Each attestation has its own unique identifier (UID) which is a hash of the entire attestation
@@ -38,4 +38,4 @@ Here is an example on-chain attestation record. It’s name a schema `0xd41…bc
 6. **Referenced attestations:** One of the most powerful features of BAS is its ability to allow attestations to reference other attestation UIDs. This field shows the attestations that are linked to by current attestation.
 7. **Referencing attestations:** This field shows the attestations that link to current attestation.
 
-See [how to create an attestation.](../tutorials/make_attestation.md)
+View more detail in [how to create an attestation.](../tutorials/make_attestation.md)

@@ -6,7 +6,9 @@
 
 Users can public or privatize the attestations they crate on attestations detail page.
 
-//todo: add a figure 
+<div align="center" id="revoke">
+    <img src="/figures/public.png" width="70%" />
+</div>
 
 ### Use SDK
 

@@ -13,7 +13,7 @@ attesetation would be recorded in BAS contract.
 2) Or you can create an off-chain attestation and store it in greenfield or any other storage. Then
 
 <div align="center">
-<img src="/figures/work_flow.jpg" width="50%" />
+<img src="/figures/work_flow.jpg" width="75%" />
 </div>
 
 Either on-chain or off-chain attestation could be claimed as invalid by the attestor through revoking it.  
