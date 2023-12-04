@@ -19,7 +19,7 @@ When users want to check the status of their schema or learn about certain schem
 3. **Search by `Schema #`**: Users need to enter the accurate `Schema #` to find the corresponding schema.
 
 <div align="center" id="create schema">
-    <img src="../figures/create_schema.png" width="60%" />
+    <img src="/figures/create_schema.png" width="60%" />
 </div>
 
 <aside>

@@ -31,14 +31,14 @@
   - **`Attestation Count`** - The total number of attestations, whether on or off-chain, associated with the schema.
   - **`Schema`** - The ABI encoded field types within the schema.
 - An example schema record on BASCAN:
-![schema detail](../figures/schema_detail.png)
+![schema detail](/figures/schema_detail.png)
 
 ## Create Schemas
 
 ### Create a Schema by [BASCAN](http://www.bascan.com)
 
 BASCAN provide an easy way for everyone to create a schema record without code. Learn more information at [BASCAN](https://www.bascan.com).
-![create schema](../figures/create_schema.png)
+![create schema](/figures/create_schema.png)
 Users can get more detail in [here](../explorer/schema.md#create-a-schema)
 
 ### Create a schema by sdk

@@ -11,5 +11,5 @@ As for on-chain attestations, attestors of attestations can call `revoke` functi
 User gives name to a schema, but he finds a similar name has been used by another schema. So I can revoke current naming attestation and create a new one.
 
 <div align="center" id="revoke">
-    <img src="../figures/revoke.png" width="70%" />
+    <img src="/figures/revoke.png" width="70%" />
 </div>

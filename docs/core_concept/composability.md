@@ -27,7 +27,7 @@ The same goes for descriptions.
 ### Compose different basic account attestation into more detail account info
 
 <div align="center" id="basic profile">
-    <img src="../figures/profile.png" width="60%" />
+    <img src="/figures/profile.png" width="60%" />
 </div>
 
 
@@ -38,7 +38,7 @@ Twitter record attestation and record attestation can reference an existing KYC 
 Another use case is for social media platform. Bob can create a “post” attestation with uid 0x233…2233 representing his post. Alice can create a “like” attestation and a “comment” reference to  0x233…2233 respectively, representing Alice’s like and comment to Bob’s post. Meanwhile, Anne also can create a “comment” attestation referencing to Alice’s comment as Anne’s recommend to Alice’s comment.
 
 <div align="center" id="social media">
-    <img src="../figures/socoal_media.png" width="60%" />
+    <img src="/figures/socoal_media.png" width="60%" />
 </div>
 
 Developers can compose any structure according to the remands.

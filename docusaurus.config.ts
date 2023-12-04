@@ -62,13 +62,18 @@ const config: Config = {
       },
       items: [
         {
+          label: "BAS Explorer",
+          position: "right",
+          href: "https://test.bascan.io",
+        },
+        {
           type: "docSidebar",
           sidebarId: "tutorialSidebar",
           position: "left",
           label: "Tutorial",
         },
         {
-          href: "https://github.com/facebook/docusaurus",
+          href: "https://github.com/ridoio",
           label: "GitHub",
           position: "right",
         },
@@ -79,6 +84,16 @@ const config: Config = {
       links: [
         {
           title: "Docs",
+          items: [
+            {
+              label: "Welcome to BAS",
+              to: "/",
+            },
+            {
+              label: "Quick Start",
+              to: "/quick_start",
+            },
+          ],
         },
         {
           title: "Community",
@@ -101,17 +116,9 @@ const config: Config = {
           title: "More",
           items: [
             {
-              label: "Welcome to BAS",
-              to: "/index",
+              label: "Explorer",
+              href: "https://test.bascan.io",
             },
-            {
-              label: "Quick Start",
-              to: "/quick_start",
-            },
-            // {
-            //   label: "Explorer",
-            //   to: "/blog",
-            // },
             // {
             //   label: 'GitHub',
             //   href: 'https://github.com/facebook/docusaurus',

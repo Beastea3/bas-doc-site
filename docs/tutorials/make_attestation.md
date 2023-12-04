@@ -22,13 +22,13 @@ Before we delve into the process of creating attestations, take a moment to unde
 ## Example: On-Chain Attestation Record
 
 Users can clearly view the structure of an on-chain attestation on [BASCAN](https://www.bascan.com).
-![attestation_detail](../figures/attestation_detail.png)
+![attestation_detail](/figures/attestation_detail.png)
 
 ## Example: OffChain Attestation Record
 
 Here's an off-chain attestation record. Unlike the on-chain record, this attestation is public, and the server is unaware of it. Users can share the attestation URL with others to decode the data or publish it to GreenField. Once published or pinned to GreenField, the status icon will switch to "public.”
 
-![off chain attestation](../figures/offchain_attestation.png)
+![off chain attestation](/figures/offchain_attestation.png)
 
 ## Make  Attestations
 

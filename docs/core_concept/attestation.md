@@ -27,7 +27,7 @@ Attestations serve as a bridge between web2 and web3, providing a standard metho
 Here is an example on-chain attestation record. It’s name a schema `0xd41…bcb` as Twitter Handle.
 
 <div align="center">
-    <img src="../figures/attestation_detail.png" width="60%" />
+    <img src="/figures/attestation_detail.png" width="60%" />
 </div>
 
 1. **UID:** Each attestation has its own unique identifier (UID) which is a hash of the entire attestation
