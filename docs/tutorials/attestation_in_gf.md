@@ -6,7 +6,7 @@
 
 Users can public or privatize the attestations they crate on attestations detail page.
 
-<div align="center" id="revoke">
+<div align="center" id="public">
     <img src="/figures/public.png" width="70%" />
 </div>
 
@@ -16,8 +16,8 @@ Developers can change visibility of attestations on GreenField through JS SDK. [
 
 ## Share Private Attestations
 
-
+**Coming Soon!**
 
 ## Mirror Attestation to BSC
 
-Coming Soon!
+**Coming Soon!**

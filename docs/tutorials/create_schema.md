@@ -32,8 +32,8 @@
   - **`Schema`** - The ABI encoded field types within the schema.
 - An example schema record on BASCAN:
 
-<div align="center" id="revoke">
-    <img src="/figures/schema_detail.png" width="70%" />
+<div align="center" id="schema_detail">
+    <img src="/figures/schema_detail.png" width="80%" />
 </div>
 
 ## Create Schemas
@@ -43,7 +43,7 @@
 BASCAN provide an easy way for everyone to create a schema record without code. Learn more information at [BASCAN](https://www.bascan.com).
 
 <div align="center" id="revoke">
-    <img src="/figures/create_schema.png" width="70%" />
+    <img src="/figures/create_schema.png" width="80%" />
 </div>
 
 Users can get more detail in [here](../explorer/schema.md#create-a-schema)
