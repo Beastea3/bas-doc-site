@@ -50,9 +50,7 @@ export const BASContractAddress = "0x6c2270298b1e6046898a322acB3Cbad6F99f7CBD"; 
 const bas = new BAS(BASContractAddress);
 
 // Gets a default provider (in production use something else like infura/alchemy)
-const provider = ethers.providers.getDefaultProvider(
-  "sepolia"
-);
+const provider = ethers.providers.getDefaultProvider();
 
 // Connects an ethers style provider/signingProvider to perform read/write functions.
 // MUST be a signer to do write operations!
@@ -72,7 +70,7 @@ bas.connect(provider);
 To register a new schema, you can use the `register` function provided by the BAS SDK. This function takes an object with the following properties:
 
 - `schema`: The schema string that defines the structure of the data to be attested.
-- `resolverAddress`: The Ethereum address of the resolver responsible for managing the schema.
+- `resolverAddress`: The BNB address of the resolver responsible for managing the schema.
 - `revocable`: A boolean value indicating whether attestations created with this schema can be revoked.
 
 Here’s an example of how to register a new schema:
@@ -158,8 +156,8 @@ The `getAttestation` function confidently returns an attestation object with the
 - `time`: The Unix timestamp when the attestation was created.
 - `expirationTime`: The Unix timestamp when the attestation expires (0 for no expiration).
 - `revocationTime`: The Unix timestamp when the attestation was revoked, if applicable.
-- `recipient`: The Ethereum address of the recipient of the attestation.
-- `attester`: The Ethereum address of the attester who created the attestation.
+- `recipient`: The BNB address of the recipient of the attestation.
+- `attester`: The BNB address of the attester who created the attestation.
 - `revocable`: A boolean indicating whether the attestation is revocable or not.
 - `data`: The attestation data in bytes format.
 
@@ -186,7 +184,7 @@ The `attest` function enables you to confidently create an on-chain attestation 
 
 - `schema`: The unique identifier (UID) of the schema for which the attestation is being created.
 - `data`: An object that contains the following properties:
-  - `recipient`: The Ethereum address of the attestation recipient.
+  - `recipient`: The BNB address of the attestation recipient.
   - `expirationTime`: A Unix timestamp that represents the expiration time of the attestation. You can set it to `0` for no expiration.
   - `revocable`: A boolean value that indicates whether the attestation can be revoked or not.
   - `refUID`: (Optional) The UID of a referenced attestation. If there is no reference, use `ZERO_BYTES32`.
