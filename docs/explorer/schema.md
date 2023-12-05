@@ -1,3 +1,6 @@
+---
+sidebar_position: 2
+---
 # Schema
 
 Even a non-developer can master the power of attestations, thanks to BASCAN’s user-friendly interface. Crafting your schema can be done without any coding at all. This tutorial will provide a step-by-step process, making schema creation a breeze without needing to delve deep into the technical aspects.

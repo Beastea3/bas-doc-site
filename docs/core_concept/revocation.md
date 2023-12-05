@@ -1,3 +1,6 @@
+---
+sidebar_position: 7
+---
 # Revocation
 
 On BAS, users can revoke either on-chain or off-chain attestations when they are no longer valid. Consider an attestation which claims Bob is a senior student. But when Bob graduate from school, the attestation should be revoked.

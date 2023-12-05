@@ -1,3 +1,6 @@
+---
+sidebar_position: 1
+---
 # Schemas
 
 A schema is a structured framework that defining the data format and resolver with `attest` function. Schema dictate what kind of data can be attested and how that data should be presented.

@@ -1,3 +1,6 @@
+---
+sidebar_position: 4
+---
 # Attestation with Greenfield
 
 ## Publish & Privatize Attestations

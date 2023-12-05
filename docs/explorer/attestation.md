@@ -1,3 +1,6 @@
+---
+sidebar_position: 3
+---
 # Attestation
 
 BAS provides a convenient method for creating attestations without any code or development skills required. All you need is a wallet.

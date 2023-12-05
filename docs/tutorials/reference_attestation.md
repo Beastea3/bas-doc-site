@@ -1,3 +1,6 @@
+---
+sidebar_position: 3
+---
 # Referenced Attestation
 
 Unlocking the full potential of composability in BAS attestations, the refUID feature allows seamless referencing between attestations, establishing a hierarchy or chain of interdependent attestations. This organized structure fosters a clearer understanding of the relationships between attestations.

@@ -1,3 +1,6 @@
+---
+sidebar_position: 6
+---
 # Resolver
 
 User can use resolver to introduce any logic to their attestations. Picture them as gatekeepers or hooks, playing a crucial role in ensuring that attestations fulfill predetermined criteria before being accepted. Without resolver, anyone can generate arbitrary attestation. For example, anyone can generate a “twitter record” claiming his is Musk.

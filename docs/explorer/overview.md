@@ -1,3 +1,6 @@
+---
+sidebar_position: 1
+---
 # Overview
 
 Explore the comprehensive guide to [BASCAN](https://www.bascan.io), the dedicated explorer for the Attestation Ecosystem. BASCAN serves as your central hub, providing avenues for exploration, discovery, creation, and verification of schemas and attestations on BNB chain.

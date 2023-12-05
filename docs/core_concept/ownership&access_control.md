@@ -1,3 +1,6 @@
+---
+sidebar_position: 5
+---
 # Ownership & Access Control
 
 In Web3, two crucial functionalities must be implemented to address users' personal data: 1) returning data ownership to users and 2) assetization of user data. To achieve these transformative goals, two requirements are essential for data in Web3:

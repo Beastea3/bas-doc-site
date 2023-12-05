@@ -1,3 +1,6 @@
+---
+sidebar_position: 6
+---
 # Revoking Attestation
 
 Attestations within BAS can undergo revocation when their validity or accuracy diminishes, a process applicable both on-chain and off-chain. Marking an attestation as invalid becomes imperative in instances of errors during issuance or when the represented data becomes obsolete.

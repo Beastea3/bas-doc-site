@@ -1,3 +1,6 @@
+---
+sidebar_position: 2
+---
 # Make an Attestation
 
 Depending on your requirements and level of technical expertise, there are multiple methods available for creating attestations on BAS:

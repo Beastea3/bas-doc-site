@@ -1,3 +1,6 @@
+---
+sidebar_position: 4
+---
 # On-chain vs Off-chain
 
 Users can create on-chain & off-chain attestations. As for on-chain attestation, they are stored directly on the BNB chain and can be accessed to by anyone. Once user create an on-chain attestation, he/she relinquishes the ownership of the attestation. While off-chain attestations often are stored by user themselves or in Greenfield. User has the ownership of the attestations in Greenfield and manage the permissions.

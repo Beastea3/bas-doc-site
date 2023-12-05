@@ -1,3 +1,6 @@
+---
+sidebar_position: 5
+---
 # Leveraging Resolver Contracts
 
 To enhance the functionality of a Schema, Resolver Contracts serve as pivotal hooks, verifying that attestations adhere to predetermined rules or smart contract logic before finalization. This functionality empowers the infusion of additional smart contract features into your schema, such as implementing an allow-list for attestation creators or enabling NFT minting based on specific conditions.

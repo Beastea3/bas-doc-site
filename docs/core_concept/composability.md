@@ -1,3 +1,6 @@
+---
+sidebar_position: 3
+---
 # Composability
 
 Composability is an important feature of Web3. Developers can create their own elements. And others can construct more complex and intricate structure by combing existing basic elements. Just like LEGO, users can build anything using several existing basic pieces.

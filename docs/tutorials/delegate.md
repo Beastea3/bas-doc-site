@@ -1,3 +1,6 @@
+---
+sidebar_position: 7
+---
 # Delegated Attestations
 
 Delegated Attestations empower an entity to sign an attestation while authorizing another entity to handle the associated transaction fee. It's noteworthy that when an attestation is delegated, the delegator's (signer) address serves as the attestor's identity in the attestation record.

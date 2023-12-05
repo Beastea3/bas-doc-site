@@ -1,3 +1,6 @@
+---
+sidebar_position: 2
+---
 # Attestation
 
 At its core, an attestation is a data with proof that can be used to verify the validity defined in schema. Attestation provide a standard for user to import any data into web3. With in BAS, attestations can be created on-chain and off-chain. Users can store the off-chain attestations in greenfield to provide the attestations access control.
