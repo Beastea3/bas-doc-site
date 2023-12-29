@@ -73,7 +73,7 @@ const config: Config = {
           label: "Tutorial",
         },
         {
-          href: "https://github.com/ridoio",
+          href: "https://github.com/bnb-attestation-service",
           label: "GitHub",
           position: "right",
         },
