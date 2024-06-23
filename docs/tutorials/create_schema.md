@@ -29,7 +29,7 @@ sidebar_position: 1
   - **`Schema #`** - An incrementally assigned number that is not a unique identifier.
   - **`UID`** - A unique universal identifier exclusively assigned to the schema.
   - **`Creator`** - The wallet address responsible for creating the schema.
-  - **`Transaction ID`** - The Ethereum transaction ID registering the schema on EAS.
+  - **`Transaction ID`** - The BNB/OpBNB transaction ID registering the schema on EAS.
   - **`Resolver`** - An optional contract designated to the schema for more intricate use cases.
   - **`Attestation Count`** - The total number of attestations, whether on or off-chain, associated with the schema.
   - **`Schema`** - The ABI encoded field types within the schema.
