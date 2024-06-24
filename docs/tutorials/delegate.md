@@ -7,7 +7,7 @@ Delegated Attestations empower an entity to sign an attestation while authorizin
 
 ## Use Cases
 
-The versatility of delegated attestations on EAS becomes apparent when the attestor and the fee-covering entity are distinct. This arrangement proves beneficial, especially in scenarios such as:
+The versatility of delegated attestations on BAS becomes apparent when the attestor and the fee-covering entity are distinct. This arrangement proves beneficial, especially in scenarios such as:
 
 - A service intending to cover its users' attestations, addressing gas cost concerns.
 - An entity making multiple attestations but designating the recipient or another party to handle the transaction fees for on-chain processing.

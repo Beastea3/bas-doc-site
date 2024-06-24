@@ -7,10 +7,11 @@ sidebar_label: Quick Start
 
 ## How does BAS work
 On BAS, firstly user should register a [schema](./core_concept/schema.md) in Schema Registry Contract. Schema defines a data structure including fields [revokable](./core_concept/revocation.md) and [resolver](./core_concept/resolver.md).
-1) Then you can create an on-chain attestation based on one schema. And if the resolver field of the schema your attestation related to if not null, 
-the BAS contract will call the resolver and check the validity of the attestation. After passing the verification, the new created
+
+Then you can create an on-chain attestation based on one schema. And if the resolver field of the schema your attestation related to if not null, the BAS contract will call the resolver and check the validity of the attestation. After passing the verification, the new created
 attesetation would be recorded in BAS contract.
-2) Or you can create an off-chain attestation and store it in greenfield or any other storage. Then
+
+Or you can create an off-chain attestation and store it in greenfield or any other storage. Then
 
 <div align="center">
 <img src="/figures/work_flow.jpg" width="75%" />
