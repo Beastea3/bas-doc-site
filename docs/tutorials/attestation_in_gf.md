@@ -5,7 +5,7 @@ sidebar_position: 4
 
 ## Publish & Privatize Attestations
 
-### Use [BASCAN](https://www.bascan.io)
+### Use [BASCAN](https://bascan.io)
 
 Users can public or privatize the attestations they crate on attestations detail page.
 

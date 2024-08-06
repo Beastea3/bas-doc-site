@@ -41,9 +41,9 @@ Here's an off-chain attestation record. Unlike the on-chain record, this attesta
 
 ## Make  Attestations
 
-### Make Attestations through [BASCAN](https://www.bascan.io)
+### Make Attestations through [BASCAN](https://bascan.io)
 
-For non-developers seeking to leverage attestations, BAS provides no-code tools. These interfaces enable you to easily generate attestations through visual interface. See more information in [BASCAN](https://www.bascan.io).
+For non-developers seeking to leverage attestations, BAS provides no-code tools. These interfaces enable you to easily generate attestations through visual interface. See more information in [BASCAN](https://bascan.io).
 Users can get more details on [here](../explorer/attestation.md#make-an-attestation).
 
 ### Make Attestations through SDK
