@@ -21,7 +21,7 @@ Several circumstances may necessitate the revocation of an attestation:
 
 User can find out how to revoke an attestation [here](../sdk/js.md#revoking-on-chain-attestations)
 
-## Revoking Attestations On [BASCAN](https://www.bascan.io)
+## Revoking Attestations On [BASCAN](https://bascan.io)
 
 For attestors accessing the BASCAN, manual revocation is possible by clicking the "revoke attestation" button on the unique attestation page. This option is exclusively visible to the attester.
 

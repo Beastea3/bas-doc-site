@@ -64,7 +64,7 @@ const config: Config = {
         {
           label: "BAS Explorer",
           position: "right",
-          href: "https://test.bascan.io",
+          href: "https://bascan.io",
         },
         {
           type: "docSidebar",
@@ -117,7 +117,7 @@ const config: Config = {
           items: [
             {
               label: "Explorer",
-              href: "https://test.bascan.io",
+              href: "https://bascan.io",
             },
             // {
             //   label: 'GitHub',
