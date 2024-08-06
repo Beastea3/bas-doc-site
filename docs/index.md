@@ -9,7 +9,8 @@ sidebar_label: Welcome to BAS
     <img src="/figures/welcome.jpg" width="100%" />
 </div>
 
-## :tada: Welcome.
+## :tada: Welcome
+
 **The BNB Attestation Service (BAS)** is an infrastructure built on the BNB ecosystem for generating attestation to verify  information. BAS assists users in on-chain or off-chain verification, allowing them to assert ownership of attestation by storing them in Greenfield. This approach ensures data privacy and access control.
 
 Data is a crucial piece of the Web3 puzzle. However, the inherent closed nature of blockchain technology limits its ability to verify information from off-chain sources, significantly constraining the potential applications and value discovery within Web3. Therefore, there is a need for a standard to generate attestations for validating the authenticity of information. Attestations play a critical role whenever there is a requirement to prove or verify something.
