@@ -38,7 +38,6 @@ Here's an off-chain attestation record. Unlike the on-chain record, this attesta
     <img src="/figures/offchain_attestation.png" width="80%" />
 </div>
 
-
 ## Make  Attestations
 
 ### Make Attestations through [BASCAN](https://bascan.io)
