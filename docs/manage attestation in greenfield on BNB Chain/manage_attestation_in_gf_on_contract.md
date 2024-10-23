@@ -11,15 +11,15 @@ Therefore, BAS provides a method to create and manage off-chain attestations thr
 ***BNB Chain Mainnet***
 
 ```yaml
-Bucket Factory Contract: ""
-Bucket Registry Contract: ""
+Bucket Factory Contract: "0xf0FbEd246C5ECe50CaAcFfA491f01F999D1f1DFE"
+Bucket Registry Contract: "0xC6D8cb54C06F0D595b2D23c6A19f76276bB866dc"
 ```
 
 ***BNB Chain Testnet***
 
 ```yaml
-Bucket Factory Contract: ""
-Bucket Registry Contract: ""
+Bucket Factory Contract: "0xf0FbEd246C5ECe50CaAcFfA491f01F999D1f1DFE"
+Bucket Registry Contract: "0xC6D8cb54C06F0D595b2D23c6A19f76276bB866dc"
 ```
 
 ## System Architecture
@@ -38,9 +38,9 @@ The Manager contract is the main entity for users to manage their attestations s
 
 First, users can create buckets through the manager contract to store off-chain attestations. There are two types of buckets:
 
-- **General Bucket**: A manager contract can create any number of schema buckets that can store any off chain attestation named in Greenfield as bas-${tag}-${mangaer.address}.
+- **General Bucket**: A manager contract can create any number of schema buckets that can store any off chain attestation named in Greenfield as `bas-${tag}-${mangaer`.address}.
 
-- **Schema Bucket**: A manager contract can create any number of schema buckets. Each schema bucket stores attestations belonging to that schema. Additionally, users can add a tag to the schema bucket for easier identification. Its name in Greenfield is bas-${tag}-${schemaId[:20]}. It's important to note that due to the length limitation of bucket names in Greenfield, the tag length cannot exceed 18 characters.
+- **Schema Bucket**: A manager contract can create any number of schema buckets. Each schema bucket stores attestations belonging to that schema. Additionally, users can add a tag to the schema bucket for easier identification. Its name in Greenfield is `bas-${tag}-${schemaId[:20]}`. It's important to note that due to the length limitation of bucket names in Greenfield, the tag length cannot exceed 18 characters.
 
 All buckets in Greenfield share the same namespace, so the names of newly created buckets will be registered in the registry contract. If a bucket name is already taken, it cannot be created.
 

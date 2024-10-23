@@ -94,7 +94,7 @@ const config: Config = {
               to: "/quick_start",
             },
             {
-              label: "",
+              label: "Graphql",
               to:"/Graphql"
             }
           ],
