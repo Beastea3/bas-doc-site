@@ -73,6 +73,11 @@ const config: Config = {
           label: "Tutorial",
         },
         {
+          href: "https://www.bnbattest.io/",
+          label: "BAS Website",
+          position: "right",
+        },
+        {
           href: "https://github.com/bnb-attestation-service",
           label: "GitHub",
           position: "right",
