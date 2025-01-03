@@ -109,15 +109,15 @@ const config: Config = {
           items: [
             {
               label: "Telegram",
-              href: "https://t.me/+N6HLxnRL_WE5ZDVl",
+              href: "https://t.me/+On8eyMFa__JjNWY1",
             },
             {
               label: "Discord",
-              href: "https://discord.gg/B3mghkmU",
+              href: "https://discord.com/invite/HjpUFRsGge",
             },
             {
               label: "Twitter",
-              href: "https://twitter.com/rido_crypto",
+              href: "https://x.com/BASCAN_io",
             },
           ],
         },
