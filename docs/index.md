@@ -44,4 +44,3 @@ Come on, we need every you. You can join the community and contribute to the pro
 1. Joining the BAS [Telegram](https://t.me/+N6HLxnRL_WE5ZDVl) channel or [Discord](https://discord.com/invite/azhWXBPVjy) for discussions and support.
 2. Submitting issues or pull requests on [BAS Github repository](https://github.com/bnb-attestation-service).
 3. Following for updates and announcement on X @rido_crypto.
-4. Seeing more things in [RIDO](https://www.rido.io/).
