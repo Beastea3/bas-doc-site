@@ -30,6 +30,10 @@ const sidebars: SidebarsConfig = {
         'core_concept/composability',
         'core_concept/ownership&access_control',
         'core_concept/delegating',
+        'core_concept/attestation',
+        'core_concept/onchain_vs_offchain',
+        'core_concept/resolver',
+        'core_concept/revocation',
       ],
     },
     {
@@ -40,6 +44,10 @@ const sidebars: SidebarsConfig = {
         'tutorials/make_attestation',
         'tutorials/attestation_in_gf',
         'tutorials/delegate',
+        'tutorials/reference_attestation',
+        'tutorials/resolver',
+        'tutorials/revoke',
+        'tutorials/special_attestations',
       ],
     },
     {
@@ -55,16 +63,33 @@ const sidebars: SidebarsConfig = {
       type: 'category',
       label: 'BNB Passport',
       items: [
-        'passport/introduction',
-        'passport/interface',
-        'passport/sdk',
+        'bnb_passport/introduction',
+        'bnb_passport/interface',
+        'bnb_passport/sdk',
       ],
     },
     {
       type: 'category',
       label: 'Manage Attestation in Greenfield',
       items: [
-        'manage attestation in greenfield on BNB Chain/overview',
+        'manage attestation in greenfield on BNB Chain/manger_attestation_in_gf_on_bascan',
+        'manage attestation in greenfield on BNB Chain/manage_attestation_in_gf_on_contract',
+      ],
+    },
+    {
+      type: 'category',
+      label: 'SDK',
+      items: [
+        'sdk/js',
+        'sdk/go',
+      ],
+    },
+    {
+      type: 'category',
+      label: 'Use Cases',
+      items: [
+        'use_case/license',
+        'use_case/voting',
       ],
     },
     {
