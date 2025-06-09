@@ -8,13 +8,13 @@ Your BNB Passport authenticates your presence across Web2 and Web3, we are openi
     <img src="/figures/passport_work_flow.png" width="80%" />
 </div>
 
-1. 用户通过sdk发起verify requirement
-2. sdk将verify requirement 转发到issuers
-3. issuers 通过和用户交互生成（zero knowledge）proof
-4. 通过sdk将生成的proof发送给passport verifier验证
-5. passport verifier生成调用bnb passport contract的参数
-6. 用户调用passport contract生成attestation
-7. 通过passport contract interface，其他诸如pancake v4 hook, RWA, airdrop等合约使用
+1. User initiates verify requirement through SDK
+2. SDK forwards verify requirement to issuers
+3. Issuers generate (zero knowledge) proof through interaction with user
+4. Generated proof is sent to passport verifier for verification via SDK
+5. Passport verifier generates parameters for calling BNB passport contract
+6. User calls passport contract to generate attestation
+7. Other contracts such as Pancake v4 hook, RWA, airdrop etc. utilize through passport contract interface
 
 ## Support Schemas
 
@@ -30,7 +30,8 @@ Your BNB Passport authenticates your presence across Web2 and Web3, we are openi
 
 **Bithumb KYC**: `0x19a28ca02c46af715ad54babcdd1d45782065816b910964d8297b1aeebd75245`
 
-跟多的数据会在随后支持。
+More data will be supported in the future.
+
 ## Contracts
 
 **Mainnet**: `0x97F0Ed637276907dcecbE49Bf08464Bdc7E46734`

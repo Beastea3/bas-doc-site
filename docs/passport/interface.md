@@ -1,6 +1,6 @@
 # BNB Passport Interface
 
-通过BNB passport contract interface 其他合约可以方便的验证用户的数据，并基于此构建诸如pancake v4 hook, RAW, token allocation等应用
+Through the BNB passport contract interface, other contracts can easily verify user data and build applications such as pancake v4 hook, RWA, token allocation, etc.
 
 ## Interface
 
