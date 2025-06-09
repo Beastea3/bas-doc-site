@@ -1,3 +1,7 @@
+---
+sidebar_position: 2
+---
+
 # BNB Passport Interface
 
 Through the BNB passport contract interface, other contracts can easily verify user data and build applications such as pancake v4 hook, RWA, token allocation, etc.

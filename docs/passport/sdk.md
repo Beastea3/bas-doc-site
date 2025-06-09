@@ -1,3 +1,7 @@
+---
+sidebar_position: 3
+---
+
 # BNB Passport JS SDK
 
 BAS SDK is a toolkit designed for blockchain interaction, providing convenient interfaces to handle wallet connections, transaction signing, and smart contract interactions. It supports various blockchain networks and wallet connection methods.

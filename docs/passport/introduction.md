@@ -1,4 +1,4 @@
-# BNB Passport
+# Introduction
 
 Your BNB Passport authenticates your presence across Web2 and Web3, we are opening up numerous opportunities as you gather achievements and increase your proofs. Proofs boosts your credibility, allowing you to actively engage with the community. The  BNB Passport Score validates your identity, with each verifier providing unique confirmation of your participation.
 
