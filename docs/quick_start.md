@@ -4,8 +4,8 @@ sidebar_label: Quick Start
 ---
 # Quick Start
 
-
 ## How does BAS work
+
 On BAS, firstly user should register a [schema](./core_concept/schema.md) in Schema Registry Contract. Schema defines a data structure including fields [revokable](./core_concept/revocation.md) and [resolver](./core_concept/resolver.md).
 
 Then you can create an on-chain attestation based on one schema. And if the resolver field of the schema your attestation related to if not null, the BAS contract will call the resolver and check the validity of the attestation. After passing the verification, the new created
@@ -20,6 +20,7 @@ Or you can create an off-chain attestation and store it in greenfield or any oth
 Either on-chain or off-chain attestation could be claimed as invalid by the attestor through revoking it.  
 
 ## Contracts
+
 Following is the contract deployed in BNB chain.
 
 ### BNB Mainnet
@@ -38,7 +39,6 @@ Following is the contract deployed in BNB chain.
 
 - BAS contract: `0x5e905F77f59491F03eBB78c204986aaDEB0C6bDa`
 - Schema Registry contract: `0x65CFBDf1EA0ACb7492Ecc1610cfBf79665DC631B`
-
 
 ### opBNB Testnet
 
