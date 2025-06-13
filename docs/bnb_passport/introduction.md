@@ -33,6 +33,9 @@ Your BNB Passport authenticates your presence across Web2 and Web3, we are openi
 
 **Bithumb KYC**: `0x19a28ca02c46af715ad54babcdd1d45782065816b910964d8297b1aeebd75245`
 
+Key points:
+A KYC account can only be bound to the same address, and the same KYC can use the same address for multiple attestations.
+
 More data will be supported in the future.
 
 ## Contracts
