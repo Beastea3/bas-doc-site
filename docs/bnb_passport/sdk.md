@@ -32,7 +32,7 @@ pnpm add bnb-passport-attestation
 
 ## Quick Start
 
-Supported type values: `kyc_binance`, `kyc_bithumb`, `kyc_upbit`, `kyc_coinbase`, `kyc_okx`, `kyc_bybit`. [View Detail](!https://www.npmjs.com/package/bnb-passport-attestation)
+Supported type values: `kyc_binance`, `kyc_bithumb`, `kyc_upbit`, `kyc_coinbase`, `kyc_okx`, `kyc_bybit`. [View Detail](https://www.npmjs.com/package/bnb-passport-attestation)
 
 ```javascript
 import { usePassportAttention } from 'bnb-passport-attestation';
@@ -174,7 +174,7 @@ const handleMintPassport = async () => {
 };
 ```
 
-### Error Handling**
+### Error Handling
 
 The hook provides comprehensive error handling for various scenarios:
 
@@ -282,21 +282,21 @@ function MyComponent() {
 
 | Property | Type | Description |
 |----------|------|-------------|
-| getUserAttestedSchemas | (user: string) => Promise<string[]> | Get all attested schemas for a user |
-| getUserAttestedSchemasInGivenSchemaSet | (user: string, schemas: string[]) => Promise<string[]> | Get user's attested schemas within a given schema set |
-| getUserLastAttestationRecord | (user: string, schemaId: string) => Promise<[AttestationRecord, boolean]> | Get user's last attestation record |
-| userFinishedAllAttestation | (user: string, schemas: string[]) => Promise | Check if user has completed all attestations |
-| userFinishedAllAttestationsAfter | (user: string, schemas: string[], timestamp: number) => Promise | Check if user has completed all attestations after a timestamp |
-| userFinishedOneOfAttestation | (user: string, schemas: string[]) => Promise | Check if user has completed at least one attestation |
-| userFinishedOneOfAttestationAfter | (user: string, schemas: string[], timestamp: number) => Promise | Check if user has completed at least one attestation after a timestamp |
-| switchNetwork | (network: EnvType) => Promise | Switch network |
-| currentNetwork | string | Current network |
-| isCorrectNetwork | boolean | Whether connected to the correct network |
-| isLoading | boolean | Loading state |
-| error | Error \| null | Error information |
-| account | string \| null | Currently connected account address |
-| isConnected | boolean | Whether wallet is connected |
-| connect | () => Promise | Connect wallet |
+| getUserAttestedSchemas | `(user: string) => Promise<string[]>` | Get all attested schemas for a user |
+| getUserAttestedSchemasInGivenSchemaSet | `(user: string, schemas: string[]) => Promise<string[]>` | Get user's attested schemas within a given schema set |
+| getUserLastAttestationRecord | `(user: string, schemaId: string) => Promise<[AttestationRecord, boolean]>` | Get user's last attestation record |
+| userFinishedAllAttestation | `(user: string, schemas: string[]) => Promise` | Check if user has completed all attestations |
+| userFinishedAllAttestationsAfter | `(user: string, schemas: string[], timestamp: number) => Promise` | Check if user has completed all attestations after a timestamp |
+| userFinishedOneOfAttestation | `(user: string, schemas: string[]) => Promise` | Check if user has completed at least one attestation |
+| userFinishedOneOfAttestationAfter | `(user: string, schemas: string[], timestamp: number) => Promise` | Check if user has completed at least one attestation after a timestamp |
+| switchNetwork | `(network: EnvType) => Promise` | Switch network |
+| currentNetwork | `string` | Current network |
+| isCorrectNetwork | `boolean` | Whether connected to the correct network |
+| isLoading | `boolean` | Loading state |
+| error | `Error \| null` | Error information |
+| account | `string \| null` | Currently connected account address |
+| isConnected | `boolean` | Whether wallet is connected |
+| connect | `() => Promise` | Connect wallet |
 
 ### AttestationRecord Type
 
